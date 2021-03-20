@@ -1,0 +1,33 @@
+.destination {
+  border-top: 1px solid lightgray;
+  padding-top: 30px;
+}
+.map {
+  height: 80vh;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.search-destination {
+  background-color: #6c5b7b;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+.search-destination label {
+  margin-top: 10px;
+}
+.search-destination input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+.search-btn input {
+  margin-top: 20px;
+  background-color: #f67280;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}

@@ -1,0 +1,17 @@
+[{
+    "id": "702460597",
+    "type": "car",
+    "image_url": "https://freelancernuman.000webhostapp.com/wp-content/uploads/2021/03/car.png"
+  }, {
+    "id": "545214198",
+    "type": "bus",
+    "image_url": "https://freelancernuman.000webhostapp.com/wp-content/uploads/2021/03/bus.png"
+  }, {
+    "id": "017331091",
+    "type": "bike",
+    "image_url": "https://freelancernuman.000webhostapp.com/wp-content/uploads/2021/03/bike.png"
+  }, {
+    "id": "942061042",
+    "type": "train",
+    "image_url": "https://freelancernuman.000webhostapp.com/wp-content/uploads/2021/03/train.png"
+  }]

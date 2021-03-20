@@ -1,0 +1,54 @@
+.email-login {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid gray;
+}
+.login-box {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.login-box input {
+  margin-top: 15px;
+  padding: 10px;
+}
+.login-box button {
+  margin-top: 15px;
+  padding: 10px;
+}
+.already-login {
+  margin-top: 10px;
+  text-align: center;
+}
+.already-login button {
+  border: none;
+  background-color: white;
+  color: red;
+}
+.other-login {
+  text-align: center;
+}
+.separator {
+  position: relative;
+  margin-top: 10px;
+}
+.separator::after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 24%;
+}
+.separator::before {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  display: block;
+  top: 50%;
+  right: 24%;
+}

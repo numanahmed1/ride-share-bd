@@ -1,0 +1,12 @@
+.detail-text {
+  background-color: #f67280;
+  color: white;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+.detail-text p {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
