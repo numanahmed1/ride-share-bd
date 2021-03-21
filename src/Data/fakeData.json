@@ -1,17 +1,41 @@
 [{
     "id": "702460597",
     "type": "car",
-    "image_url": "https://freelancernuman.000webhostapp.com/wp-content/uploads/2021/03/car.png"
+    "image_url": "https://freelancernuman.000webhostapp.com/wp-content/uploads/2021/03/car.png",
+    "capacity1": "3",
+    "price1": "10",
+    "capacity2": "4",
+    "price2": "30",
+    "capacity3": "6",
+    "price3": "50"
   }, {
     "id": "545214198",
     "type": "bus",
-    "image_url": "https://freelancernuman.000webhostapp.com/wp-content/uploads/2021/03/bus.png"
+    "image_url": "https://freelancernuman.000webhostapp.com/wp-content/uploads/2021/03/bus.png",
+    "capacity1": "6",
+    "price1": "65",
+    "capacity2": "2",
+    "price2": "25",
+    "capacity3": "3",
+    "price3": "30"
   }, {
     "id": "017331091",
     "type": "bike",
-    "image_url": "https://freelancernuman.000webhostapp.com/wp-content/uploads/2021/03/bike.png"
+    "image_url": "https://freelancernuman.000webhostapp.com/wp-content/uploads/2021/03/bike.png",
+    "capacity1": "1",
+    "price1": "15",
+    "capacity2": "2",
+    "price2": "25",
+    "capacity3": "3",
+    "price3": "40"
   }, {
     "id": "942061042",
     "type": "train",
-    "image_url": "https://freelancernuman.000webhostapp.com/wp-content/uploads/2021/03/train.png"
+    "image_url": "https://freelancernuman.000webhostapp.com/wp-content/uploads/2021/03/train.png",
+    "capacity1": "10",
+    "price1": "150",
+    "capacity2": "7",
+    "price2": "100",
+    "capacity3": "3",
+    "price3": "35"
   }]

@@ -12,9 +12,8 @@ const RideCard = ({ rideType }) => {
   };
   return (
     <Col
-      className="main-card"
+      className="main-card col-6"
       onClick={() => handleRideType(id)}
-      sm={12}
       md={6}
       lg={3}
     >

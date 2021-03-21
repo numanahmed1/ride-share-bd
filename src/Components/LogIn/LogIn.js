@@ -1,5 +1,7 @@
 import React, { useContext, useRef, useState } from "react";
 import { useForm } from "react-hook-form";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGoogle, faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import "./LogIn.css";
 import firebase from "firebase/app";
 import "firebase/auth";
@@ -207,11 +209,17 @@ const LogIn = () => {
         </div>
         <div className="other-login">
           <p className="separator">or</p>
-          <div>
-            <button onClick={handleGoogleSignIn}>Google Sing In</button>
+          <div className="googleBtn">
+            <button onClick={handleGoogleSignIn}>
+              <FontAwesomeIcon icon={faGoogle} />
+              Google Sing In
+            </button>
           </div>
-          <div>
-            <button onClick={handleFbSignIn}>Facebook Sing In</button>
+          <div className="facebookBtn">
+            <button onClick={handleFbSignIn}>
+              <FontAwesomeIcon icon={faFacebookF} />
+              Facebook Sing In
+            </button>
           </div>
         </div>
       </div>

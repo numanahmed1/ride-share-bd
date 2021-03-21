@@ -7,6 +7,7 @@
   width: 100%;
   border-radius: 10px;
   overflow: hidden;
+  border: 4px solid #f67280;
 }
 .search-destination {
   background-color: #6c5b7b;
@@ -23,6 +24,7 @@
   padding: 10px;
   outline: none;
   border: none;
+  border-radius: 5px;
 }
 .search-btn input {
   margin-top: 20px;

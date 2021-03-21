@@ -10,7 +10,7 @@ const Home = () => {
   useEffect(() => {
     setRideTypes(cardData);
   }, []);
-  console.log(rideTypes);
+
   return (
     <div className="home d-flex align-items-center">
       <Container>

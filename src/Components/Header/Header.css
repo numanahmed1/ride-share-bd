@@ -1,15 +1,50 @@
 .header {
   height: 60px;
+  z-index: 10;
 }
 .ride-logo a {
   color: black;
   text-decoration: none;
   text-transform: uppercase;
+  text-shadow: 1px 1px 5px black;
+}
+.ride-logo a span {
+  color: #f67280;
+  font-weight: 600;
+  text-shadow: 1px 1px 5px #f67280;
 }
 .ride-nav-item a {
-  margin-left: 25px;
+  margin-left: 15px;
   color: #000000;
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
+}
+.nav-btn {
+  margin-left: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #f67280;
+  padding: 5px 15px;
+  border-radius: 5px;
+  display: inline;
+}
+.nav-btn a {
+  color: #ffffff;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
+  .ride-nav-item {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .ride-nav-item a {
+    margin-left: 10px;
+  }
+  .nav-btn {
+    margin-left: 0px;
+  }
 }

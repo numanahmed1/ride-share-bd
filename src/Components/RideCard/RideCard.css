@@ -1,5 +1,6 @@
 .main-card {
   cursor: pointer;
+  margin: 10px 0;
 }
 .ride-card {
   background-color: #f67280;

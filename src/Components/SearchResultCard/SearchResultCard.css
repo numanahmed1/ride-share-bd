@@ -10,3 +10,24 @@
   text-transform: uppercase;
   margin-bottom: 0;
 }
+.detail-other p {
+  margin-bottom: 0;
+}
+.hr-card {
+  background-color: #f67280;
+  color: white;
+  margin-top: 10px;
+  margin: 10px 0;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+.hr-card-left {
+  flex: 0.7;
+}
+.vehicle-img {
+  width: 100%;
+  max-width: 50px;
+}
+.icon-box span {
+  margin-left: 5px;
+}

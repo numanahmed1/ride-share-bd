@@ -1,7 +1,7 @@
 .email-login {
   margin-top: 20px;
   padding: 20px;
-  border: 1px solid gray;
+  border: 1px solid #f67280;
 }
 .login-box {
   display: flex;
@@ -11,10 +11,21 @@
 .login-box input {
   margin-top: 15px;
   padding: 10px;
+  box-shadow: none;
+  border: 1px solid #f67280;
+}
+.login-box input:hover,
+:active,
+:focus {
+  outline-color: #f67280;
+  border-color: #f67280;
 }
 .login-box button {
   margin-top: 15px;
   padding: 10px;
+  background-color: #f67280;
+  color: white;
+  border: 1px solid #f67280;
 }
 .already-login {
   margin-top: 10px;
@@ -23,14 +34,14 @@
 .already-login button {
   border: none;
   background-color: white;
-  color: red;
+  color: #f67280;
 }
 .other-login {
   text-align: center;
 }
 .separator {
   position: relative;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .separator::after {
   content: "";
@@ -51,4 +62,26 @@
   display: block;
   top: 50%;
   right: 24%;
+}
+.googleBtn button {
+  margin: 10px 0;
+  width: 400px;
+  padding: 8px 0;
+  border: 1px solid #f67280;
+  border-radius: 20px;
+}
+.googleBtn button svg {
+  color: #fbbc05;
+  margin-right: 10px;
+}
+.facebookBtn button {
+  margin: 10px 0;
+  width: 400px;
+  padding: 8px 0;
+  border: 1px solid #f67280;
+  border-radius: 20px;
+}
+.facebookBtn button svg {
+  color: #0a82ec;
+  margin-right: 10px;
 }

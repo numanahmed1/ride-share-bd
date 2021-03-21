@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import GoogleMapReact from "google-map-react";
 import SearchResultCard from "../SearchResultCard/SearchResultCard";
-
 import "./Destination.css";
 
 const Destination = ({ center, zoom }) => {
