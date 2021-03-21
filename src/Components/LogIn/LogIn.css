@@ -85,3 +85,19 @@
   color: #0a82ec;
   margin-right: 10px;
 }
+@media (max-width: 768px) {
+  .email-login h3 {
+    text-align: center;
+  }
+  .login-box {
+    width: 300px;
+    margin: auto;
+  }
+  .googleBtn button {
+    width: 300px;
+  }
+
+  .facebookBtn button {
+    width: 300px;
+  }
+}
